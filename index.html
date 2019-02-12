@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>parameters</title>
+</head>
+<body>
+<script>
+    "use strict";
+
+    "use stict";
+
+    const fullName = "Yordanka Dobromirova Krasteva";
+
+    const firstSpace = fullName.indexOf(" ");
+    const firstName = fullName.slice(0, firstSpace);
+
+    const lastSpace = fullName.lastIndexOf(" ");
+    const lastName = fullName.slice(lastSpace + 1);
+
+    const middleName = fullName.slice(firstSpace + 1, lastSpace);
+
+    console.log(`first:_${firstName}_
+middle:_${middleName}_
+last:_${lastName}_`);
+
+    /*function capitalize(name) {
+       console.log('capitalize ${name}!')
+
+    }*/
+
+    let name = "Yordanka Dobromirova Krasteva";
+    let upper = name.toUpperCase();
+    console.log(name.toUpperCase());
+
+</script>
+</body>
+</html>
